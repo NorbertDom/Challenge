@@ -14,7 +14,7 @@ Program napisany został w języku Python z wykorzystaniem standardowych bibliot
 #Konfiguracja
 Do użycia programu wymagany jest Python w wersji 3+
 
-    git clone 
+    git clone https://github.com/NorbertDom/Challenge.git
     cd Challenge && pip install -r requirements.txt
     python main.py
 
