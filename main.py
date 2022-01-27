@@ -75,9 +75,7 @@ class MailNotification:
         msg['To'] = receiver
         msg['Subject'] = subject
 
-        print(self.smtp_server, self.smtp_port, user, b64code, user, receiver, body)
         try:
-            print(self.smtp_server, self.smtp_port, user, b64code, user, receiver, msg.as_string())
             server = smtplib.SMTP_SSL(self.smtp_server, self.smtp_port)
             server.ehlo()
             server.login(user, b64code)
